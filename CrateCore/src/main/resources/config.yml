@@ -1,0 +1,7 @@
+# CrateCore Configuration
+prefix: "&8[&6CrateCore&8] &r"
+broadcast-enabled: true
+broadcast-message: "&6&l{player} &ewon &6{reward} &efrom the &6{crate} &ecrate!"
+hologram-height: 2.5
+animation-duration: 3
+virtual-keys-enabled: true

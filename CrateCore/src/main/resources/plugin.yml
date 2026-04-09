@@ -1,0 +1,27 @@
+name: CrateCore
+version: '1.0.0'
+main: me.cratecore.CrateCore
+api-version: '1.21'
+description: Advanced Crate Plugin
+authors: [CrateCore]
+softdepend: [PlaceholderAPI]
+
+commands:
+  cratecore:
+    description: CrateCore main command
+    aliases: [cc, crate, crates]
+    usage: /crates <subcommand>
+
+permissions:
+  cratecore.admin:
+    description: Full admin access
+    default: op
+  cratecore.use:
+    description: Open crates
+    default: true
+  cratecore.give:
+    description: Give keys
+    default: op
+  cratecore.reload:
+    description: Reload plugin
+    default: op
