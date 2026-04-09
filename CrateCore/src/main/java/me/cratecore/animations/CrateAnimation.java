@@ -129,7 +129,7 @@ public class CrateAnimation {
                 location.getWorld().spawnParticle(Particle.PORTAL, center, 15, 0.3 * (1 - progress), 0.3, 0.3 * (1 - progress), 0.1);
 
                 if (tick[0] >= 40) {
-                    location.getWorld().spawnParticle(Particle.SPELL_WITCH, center, 20, 0.5, 0.5, 0.5, 0.1);
+                    location.getWorld().spawnParticle(Particle.WITCH, center, 20, 0.5, 0.5, 0.5, 0.1);
                     location.getWorld().playSound(center, Sound.BLOCK_ENCHANTMENT_TABLE_USE, 1f, 1f);
                     onComplete.run();
                     cancel();
